@@ -1,6 +1,6 @@
-# way to add windows entry
+ # way to add windows entry
 
-First add this line to `grub.cfg`
+First add this lines to `grub.cfg`
 
 ```shell
 if [ "${grub_platform}" == "efi" ]; then
